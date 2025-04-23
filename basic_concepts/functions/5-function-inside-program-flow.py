@@ -1,3 +1,4 @@
+# 5.) Includes logic to perform actions based on input.
 # Function to check if a number is even or odd
 def check_even(number):
     # Logic branch using if-else
