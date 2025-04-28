@@ -1,4 +1,4 @@
 # A for loop with user input
-iterations = int(input("How many times would you like to loop? "))
-for i in range(iterations):
-    print("Loop iteration:", i)
+items = input("Enter some items, separated by commas: ").split(",")
+for item in items:
+    print(f"I have a {item.strip()}")
