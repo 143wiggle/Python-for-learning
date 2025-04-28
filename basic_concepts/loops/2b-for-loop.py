@@ -1,3 +1,4 @@
 # A simple for loop example
-for i in range(5):
-    print("Loop iteration:", i)
+items = ["apple", "banana", "cherry"]
+for item in items:
+    print(f"I have a {item}")
