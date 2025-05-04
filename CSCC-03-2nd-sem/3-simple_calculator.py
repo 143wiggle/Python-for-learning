@@ -39,9 +39,6 @@ def calculator():
 
         except ValueError:
             print("Invalid input! Please enter numeric values.")
-        except Exception as e:
-            print(f"An error occurred: {e}")
-
-# Run the calculator program
+       
 if __name__ == "__main__":
     calculator()
